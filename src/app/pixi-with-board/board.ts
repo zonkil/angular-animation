@@ -13,17 +13,6 @@ export class Board {
 
     const dy = 22
 
-    // for (let i = 0; i < this.rows; ++i) {
-    //   for (let j = 0; j < this.columns; j++) {
-    //     const tile = new PIXI.Sprite(tileTexture);
-    //     const x = tileTexture.width * i + (tileTexture.width / 2) * (j % 2)
-    //     const y = (tileTexture.height - dy) * (j)
-    //     tile.setTransform(x , y)
-    //
-    //     this._tiles.addChild(tile)
-    //   }
-    // }
-
     for(let j=0; j< this.columns; j++){
       for(let i=0; i<this.rows; i++){
         const tile = new PIXI.Sprite(tileTexture);

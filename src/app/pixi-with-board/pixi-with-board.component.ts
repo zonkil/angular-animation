@@ -39,11 +39,11 @@ export class PixiWithBoardComponent implements OnInit {
   }
 
   loaded() {
-    let idlePlayer = [];
-    for (let idle of this.idle) {
-      const i = PIXI.BaseTexture.from(this.pixiApp.loader.resources[idle].url);
-      idlePlayer.push(new PIXI.Texture(i));
-    }
+    // let idlePlayer = [];
+    // for (let idle of this.idle) {
+    //   const i = PIXI.BaseTexture.from(this.pixiApp.loader.resources[idle].url);
+    //   idlePlayer.push(new PIXI.Texture(i));
+    // }
 
     let walkPlayer = [];
     for (let walk of this.walk) {

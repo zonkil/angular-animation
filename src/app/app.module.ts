@@ -11,6 +11,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { CanvasWithGsapComponent } from './canvas-with-gsap/canvas-with-gsap.component';
 import { PixiComponent } from './pixi/pixi.component';
 import { PixiWithBoardComponent } from './pixi-with-board/pixi-with-board.component';
+import { PixiWithAnimejsComponent } from './pixi-with-animejs/pixi-with-animejs.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PixiWithBoardComponent } from './pixi-with-board/pixi-with-board.compon
     CanvasAnimationComponent,
     CanvasWithGsapComponent,
     PixiComponent,
-    PixiWithBoardComponent
+    PixiWithBoardComponent,
+    PixiWithAnimejsComponent
   ],
   imports: [
     BrowserModule,
